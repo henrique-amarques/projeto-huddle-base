@@ -1,0 +1,33 @@
+@media(max-width:440px){
+
+    .header img{
+        display: block;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .container{
+       text-align: center;
+
+    }
+
+    .main .container p{
+        margin-bottom: 50px;
+    }
+
+    .footer{
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+
+    .footer .social{
+        margin: 0;
+
+    }
+}
